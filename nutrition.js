@@ -1,1 +1,1 @@
-const store={get:k=>JSON.parse(localStorage.getItem(k)||'[]'),set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
+const breakfasts=['Skyr+fruits','Omelette','Fromage blanc'];const lunches=['Poulet riz légumes','Chili','Thon PDT'];const dinners=['Saumon légumes','Steak haricots verts','Omelette salade'];const rand=a=>a[Math.floor(Math.random()*a.length)];function generateMeals(){meals.innerHTML='<p><b>PDJ:</b>'+rand(breakfasts)+'</p><p><b>Midi:</b>'+rand(lunches)+'</p><p><b>Soir:</b>'+rand(dinners)+'</p>';}
