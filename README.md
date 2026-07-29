@@ -1,1 +1,1 @@
-# reboot
+renderDashboard();renderStats();renderHistory();generateMeals();
