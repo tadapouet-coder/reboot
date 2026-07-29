@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reboot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>🔄 Reboot</h1>
+<p class="subtitle">La constance avant la performance</p>
+
+<div class="card">
+<h2>Check-in du jour</h2>
+<label>Sommeil (1-5)</label><input id="sleep" type="number" min="1" max="5" value="3">
+<label>Énergie (1-5)</label><input id="energy" type="number" min="1" max="5" value="3">
+<label>Stress (1-5)</label><input id="stress" type="number" min="1" max="5" value="3">
+<label>Motivation (1-5)</label><input id="motivation" type="number" min="1" max="5" value="3">
+<button onclick="generateWorkout()">Générer ma séance</button>
+</div>
+
+<div class="card" id="result"></div>
+
+<div class="card">
+<h2>Suivi poids</h2>
+<input id="weight" type="number" step="0.1" placeholder="Poids du jour">
+<button onclick="saveWeight()">Enregistrer</button>
+<ul id="weights"></ul>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
