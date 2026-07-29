@@ -1,1 +1,1 @@
-function coach(){return 'Cherche la constance, pas la perfection.'}
+renderDashboard();renderStats();renderHistory();generateMeals();

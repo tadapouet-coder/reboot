@@ -1,1 +1,2 @@
-renderDashboard();renderStats();renderHistory();generateMeals();
+# Reboot V3
+Application GitHub Pages.
